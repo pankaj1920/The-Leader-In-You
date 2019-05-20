@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share"
+        android:title="Share App" />
+    <item
+        android:id="@+id/rate"
+        android:title="Rate" />
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback" />
+    <item
+        android:id="@+id/more_apps"
+        android:title="More App"
+        android:icon="@drawable/add_icon" />
+    <item
+        android:id="@+id/about"
+        android:title="About" />
+    <item
+        android:id="@+id/privacy"
+        android:title="Privacy Policy" />
+    <item android:id="@+id/Share"
+        android:title="Share"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/cart"
+        android:title="Cart"
+        android:icon="@drawable/ic_cart"
+        app:showAsAction="ifRoom"/>
+</menu>
